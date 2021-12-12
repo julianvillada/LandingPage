@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+/* background-image: url('time.jpg'); */
 
   }
 
@@ -12,8 +12,28 @@
     line-height: 1.6;
   }
 
-  .LandingPage-img {
-      background-size: cover;
+#img {
+  background-image: url(../../src/image/time.jpg);
+}
+
+/* #img {
+  background-image: url(../../public/image/time.jpg);
+} */
+
+
+
+
+
+  /* .LandingPage-img {
+     /* background: url('time.jpg'); */
+  
+/* 
+  margin: 0;
+  padding: 0;
+max-width: 100vh;
+background-position: center; 
+
+ background-size: cover;
       background-position: center;
       display: flex;
       flex-direction: column;
@@ -21,9 +41,8 @@
       justify-content: center;
       align-items: center;
       padding: 0 20px;
-  }
-/* 
-  margin: 0;
-  padding: 0;
-max-width: 100vh;
-background-position: center; */
+
+
+
+*/
+
