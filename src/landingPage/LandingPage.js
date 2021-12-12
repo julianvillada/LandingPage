@@ -10,7 +10,10 @@ export const LandingPage = () => {
             </div>
             
             <h1>BIENVENIDOS A TIME</h1>
-            <p>Esta es una red social unica y exclusivamente para personas autenticas,aqui experimentaras la maravilla de conocer a personas sabiendo exactamente lo que quieres hacer.</p>
+            <p>Esta es una red social unica
+                 y exclusivamente para personas autenticas,
+                 aqui experimentaras la maravilla de conocer a personas 
+                 conociendo exactamente lo que quieres hacer.</p>
             
             <img className='LandingPage-img' src='./image/04-landing.jpg' />
         </div>
