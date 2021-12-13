@@ -1,48 +1,167 @@
 *{
     margin: 0;
-/* background-image: url('time.jpg'); */
+    padding: 0;
 
   }
 
   .LandingPage-Div {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17;
-    color:black;
-    line-height: 1.6;
+    font-size: 17px;
+    line-height: 1.6; 
   }
 
 #img {
   background-image: url(../../src/image/time.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  
 }
 
-/* #img {
-  background-image: url(../../public/image/time.jpg);
+.menu-landingPage {
+  position: relative;
+}
+
+.menu-landingPage li{
+
+  display: inline-block;
+}
+.menu-landingPage li a {
+  padding: 80px;
+}
+
+
+
+.button-iniciaSesion{
+  position: relative;
+  display: inline-block;
+  padding: 5px 30px;
+  color: #fff; 
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 1s;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  background: none;
+  right: 0;
+  top: 15px;
+  
+
+}
+.button-iniciaSesion:hover{
+  background: #a945c7;
+  box-shadow: 0 0 10px  #a945c7, 0 0 40px  #a945c7, 0 0 80px  #a945c7;
+  transition-delay: 0.75s;
+}
+
+.button-iniciaSesion span {
+  position: absolute;
+  display: block;
+}
+
+#span1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg,transparent,#a945c7);
+}
+
+.button-iniciaSesion:hover #span1 {
+  left: 100%;
+  transition: 1s;
+}
+
+#span3 {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg,transparent,#a945c7);
+}
+
+.button-iniciaSesion:hover #span3 {
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg,transparent,#a945c7);
+}
+
+.button-iniciaSesion:hover #span2 {
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+
+#span4 {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg,transparent,#a945c7);
+}
+
+.button-iniciaSesion:hover #span4 {
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+
+
+.texto-landinPage{
+  position: relative;
+  color: rgb(243, 240, 91);
+  top: 330px;
+  
+}
+
+
+/* .button-landingPage {
+  color: #fff; 
+  letter-spacing: 1px;
+  font-size: 16px;
+  border: none;
+  transition: 0.2s;
+  overflow: hidden;
+  cursor: pointer;
+  outline: inherit;
+  background: none;
+}
+.button-landingPage:hover{
+  background: #a945c7;
+  box-shadow: 0 0 10px  #a945c7, 0 0 40px  #a945c7, 0 0 80px  #a945c7;
+  transition-delay: 0.4s;
+}
+
+.button-landingPage span {
+  position: absolute;
+  display: block;
 } */
 
 
 
 
 
-  /* .LandingPage-img {
-     /* background: url('time.jpg'); */
-  
-/* 
-  margin: 0;
-  padding: 0;
-max-width: 100vh;
-background-position: center; 
-
- background-size: cover;
-      background-position: center;
-      display: flex;
-      flex-direction: column;
-      height: 100vh;
-      justify-content: center;
-      align-items: center;
-      padding: 0 20px;
 
 
 
-*/
+
 
