@@ -9,10 +9,11 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     line-height: 1.6; 
+    
   }
 
 #img {
-  background-image: url(../../src/image/time.jpg);
+  background-image: url(../../image/02-time.jpg);
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -27,25 +28,34 @@
 
 .menu-landingPage {
   position: relative;
+  max-height: 20px;
 }
+
 
 .menu-landingPage li{
 
   display: inline-block;
+  text-decoration-color: blue;
 }
-.menu-landingPage li a {
-  padding: 80px;
+.menu-landingPage  a {
+  padding: 60px;
+  color: #0a0a0a;
+  text-decoration: none;
+  letter-spacing: 4px;
+  /* text-shadow: 2px 2px 8px #a945c7; */
+  font-weight: bolder;
+  font-size: 25px;
+  
+  
 }
-
-
 
 .button-iniciaSesion{
   position: relative;
   display: inline-block;
   padding: 5px 30px;
-  color: #fff; 
+  color: rgb(52, 235, 98); 
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 25px;
   text-decoration: none;
   overflow: hidden;
   transition: 1s;
@@ -56,6 +66,7 @@
   background: none;
   right: 0;
   top: 15px;
+  font-weight: bolder;
   
 
 }
@@ -128,40 +139,13 @@
 
 .texto-landinPage{
   position: relative;
-  color: rgb(243, 240, 91);
+  color: rgb(12, 12, 12);
   top: 330px;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  letter-spacing: 4px;
+  
   
 }
-
-
-/* .button-landingPage {
-  color: #fff; 
-  letter-spacing: 1px;
-  font-size: 16px;
-  border: none;
-  transition: 0.2s;
-  overflow: hidden;
-  cursor: pointer;
-  outline: inherit;
-  background: none;
-}
-.button-landingPage:hover{
-  background: #a945c7;
-  box-shadow: 0 0 10px  #a945c7, 0 0 40px  #a945c7, 0 0 80px  #a945c7;
-  transition-delay: 0.4s;
-}
-
-.button-landingPage span {
-  position: absolute;
-  display: block;
-} */
-
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,5 @@
-import React from 'react'
-import './LandingPage.css'
+import React from 'react';
+import '../landingPage/LandingPage.css';
 
 
 export const LandingPage = () => {
@@ -7,7 +7,7 @@ export const LandingPage = () => {
         <div className='LandingPage-Div'>
             <div id='img'>
                 <div className='menu-landingPage'>
-                    <ul>
+                    <ul className='lista-landingPage'>
                         <li><a href='#'>TIME</a></li>
                         <li><a href='#'>Información</a></li>
                         <li><a href='#'>Seguridad</a></li>
