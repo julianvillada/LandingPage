@@ -8,12 +8,12 @@ export const LandingPage = () => {
             <div id='img'>
                 <div className='menu-landingPage'>
                     <ul className='lista-landingPage'>
-                        <li><a href='#'>TIME</a></li>
-                        <li><a href='#'>Información</a></li>
-                        <li><a href='#'>Seguridad</a></li>
-                        <li><a href='#'>Ayuda</a></li>
-                        <li><a href='#'>Descargar</a></li>
-                    <button href="#" className= 'button-iniciaSesion'>
+                        <li><a>TIME</a></li>
+                        <li><a>Información</a></li>
+                        <li><a>Seguridad</a></li>
+                        <li><a>Ayuda</a></li>
+                        <li><a>Descargar</a></li>
+                    <button className= 'button-iniciaSesion'>
                        <span id='span1'></span>
                        <span id='span2'></span>
                        <span id='span3'></span>
@@ -28,7 +28,7 @@ export const LandingPage = () => {
             
                 <div className='texto-landinPage'>
                     <h1 >BIENVENIDOS A TIME</h1>
-                    <button href="#" className= 'button-iniciaSesion'>
+                    <button className= 'button-iniciaSesion'>
                     <span id='span1'></span>
                     <span id='span2'></span>
                     <span id='span3'></span>
