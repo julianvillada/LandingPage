@@ -1,8 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Modal } from '../../components/Modal/Modal';
+
 import '../landingPage/LandingPage.css';
+import { Login } from '../login/Login';
+import { Register } from '../register/Register';
 
 
 export const LandingPage = () => {
+
+      //Gestión modal registro
+   const [openModalRegister, setOpenModalRegister] = useState(false);
+   const handleOpenRegister = () => setOpenModalRegister(!openModalRegister);
+
+   const handleCloseRegister = (e) => {
+    const { className: el } = e.target;
+    if (el !== "backdrop" && el !== "fas fa-times" && el !== "GoToLogin-link")
+      return;
+    setOpenModalRegister(!openModalRegister);
+  };
+
+
+  //Gestión modal login
+  const [openModalLogin, setOpenModalLogin] = useState(false);
+  const handleOpenLogin = () => setOpenModalLogin(!openModalLogin);
+  const handleCloseLogin = (e) => {
+    const { className: el } = e.target;
+    if (
+      el !== "backdrop" &&
+      el !== "fas fa-times" &&
+      el !== "GoToRegister-link"
+    )
+      return;
+    setOpenModalLogin(!openModalLogin);
+  };
+
+
+
     return (
         <div className='LandingPage-Div'>
             <div id='img'>
@@ -13,7 +46,10 @@ export const LandingPage = () => {
                         <li><a>Seguridad</a></li>
                         <li><a>Ayuda</a></li>
                         <li><a>Descargar</a></li>
-                    <button className= 'button-iniciaSesion'>
+                    <button 
+                    className= 'button-iniciaSesion'
+                    onClick={handleOpenLogin}
+                    >
                        <span id='span1'></span>
                        <span id='span2'></span>
                        <span id='span3'></span>
@@ -28,7 +64,10 @@ export const LandingPage = () => {
             
                 <div className='texto-landinPage'>
                     <h1 >BIENVENIDOS A TIME</h1>
-                    <button className= 'button-iniciaSesion'>
+                    <button 
+                    className= 'button-iniciaSesion'
+                    onClick={handleOpenRegister}
+                    >
                     <span id='span1'></span>
                     <span id='span2'></span>
                     <span id='span3'></span>
@@ -43,6 +82,24 @@ export const LandingPage = () => {
                     saber exactamente lo que quieres hacer, cuando como y donde. 
                         <p>¿A QUE SUENA GENIAL?</p>
                     </p>
+
+                    {openModalRegister && (
+        <Modal handleClose={handleCloseRegister}>
+          <Register
+            handleCloseRegister={handleCloseRegister}
+            openLogin={handleOpenLogin}
+          />
+        </Modal>
+      )}
+
+      {openModalLogin && (
+        <Modal handleClose={handleCloseLogin}>
+          <Login
+            handleCloseLogin={handleCloseLogin}
+            openRegister={handleOpenRegister}
+          />
+        </Modal>
+      )}
             
             </div>
         </div>

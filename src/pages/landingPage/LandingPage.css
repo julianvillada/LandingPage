@@ -13,7 +13,8 @@
   }
 
 #img {
-  background-image: url(../../image/02-time.jpg);
+  /* background-image: url(../../image/02-time.jpg); */
+  background-image: linear-gradient(gray, violet,rgb(74, 171, 241) );
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -39,7 +40,7 @@
 }
 .menu-landingPage  a {
   padding: 60px;
-  color: #0a0a0a;
+  color: white;
   text-decoration: none;
   letter-spacing: 4px;
   /* text-shadow: 2px 2px 8px #a945c7; */
@@ -53,7 +54,7 @@
   position: relative;
   display: inline-block;
   padding: 5px 30px;
-  color: rgb(52, 235, 98); 
+  color: rgb(200, 250, 212); 
   letter-spacing: 1px;
   font-size: 25px;
   text-decoration: none;
@@ -71,7 +72,8 @@
 
 }
 .button-iniciaSesion:hover{
-  background: #a945c7;
+  /* background: #a945c7; */
+  background: violet;
   box-shadow: 0 0 10px  #a945c7, 0 0 40px  #a945c7, 0 0 80px  #a945c7;
   transition-delay: 0.75s;
 }
@@ -139,7 +141,7 @@
 
 .texto-landinPage{
   position: relative;
-  color: rgb(12, 12, 12);
+  color:white;
   top: 330px;
   font-weight: bolder;
   font-size: 30px;
