@@ -1,11 +1,13 @@
 import React from 'react'
 import '../login/Login.css'
 
+
 export const Login = () => {
     return (
-        <div>
-            <h1 className='login-text'>Este es mi Login</h1>
-            <button className='button'>Hola mundo</button>
-        </div>
+       <div className='cover'>
+        <h1>Login</h1>
+        <input type="text" placeholder='username'/>
+        <input type="password" placeholder='password'/>
+       </div>
     )
 }

@@ -46,6 +46,10 @@ export const LandingPage = () => {
                         <li><a>Seguridad</a></li>
                         <li><a>Ayuda</a></li>
                         <li><a>Descargar</a></li>
+
+
+                   
+                    </ul>
                     <button 
                     className= 'button-iniciaSesion'
                     onClick={handleOpenLogin}
@@ -55,8 +59,7 @@ export const LandingPage = () => {
                        <span id='span3'></span>
                        <span id='span4'></span>
                        Inicia sesión
-                    </button>
-                    </ul>
+                    </button> 
               
                 </div>
            
