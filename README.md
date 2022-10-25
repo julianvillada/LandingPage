@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 # AppTime
 This is a repositori initial proyect
+## Desde VSCode
+Esto es añadido desde VSCode
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
