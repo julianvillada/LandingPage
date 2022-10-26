@@ -8,7 +8,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
-    line-height: 1.6; 
+    line-height: 4.6; 
     
   }
 
@@ -51,26 +51,16 @@
 }
 
 .button-iniciaSesion{
-  position: relative;
-  display: inline-block;
-  padding: 5px 30px;
-  color: rgb(200, 250, 212); 
-  letter-spacing: 1px;
-  font-size: 25px;
-  text-decoration: none;
-  overflow: hidden;
-  transition: 1s;
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-  outline: inherit;
-  background: none;
-  right: 0;
-  top: 15px;
-  font-weight: bolder;
-  
+text-align: center;
 
 }
+
+.button-register{
+  text-decoration: none;
+
+}
+
+
 .button-iniciaSesion:hover{
   /* background: #a945c7; */
   background: violet;
